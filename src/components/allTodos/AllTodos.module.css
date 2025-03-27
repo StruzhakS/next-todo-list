@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  align-items: center;
+  justify-content: center;
+  background: #adc2da;
+}
+
+.todoList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  list-style: none;
+  gap: 14px;
+}
+
+@keyframes animatedBg {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 1000px;
+  }
+}
