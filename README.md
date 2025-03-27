@@ -1,48 +1,48 @@
 # ✅ ToDo App
 
-## 🔧 Встановлення та запуск
 
-### 1️⃣ Клонування репозиторію
-git clone https://https://github.com/StruzhakS/next-todo-list
-cd next-todo-list
+## 🔧 Installation & Setup
 
-    2️⃣ Встановлення залежностей
+### 1️⃣ Clone the repository
 
+git clone https://github.com/your-repo/todo-app.git
+cd todo-app
+
+2️⃣ Install dependencies
 npm install
 
-    3️⃣ Запуск застосунку
-
+3️⃣ Run the app
 npm start
 
+The app will run on http://localhost:3000 🚀
 
-Застосунок запуститься на http://localhost:3000 🚀
+----
 
----
-
-
-ToDo App — це простий застосунок для керування списком завдань. Використовує **React Query** для роботи з API, забезпечуючи кешування, автоматичне оновлення даних та зручне управління станами.
+A simple **ToDo App** built with **React** and **Axios** to manage tasks efficiently.
 
 ---
 
-## 🚀 Функціонал
+## 🚀 Features
 
-- 📋 Отримання списку завдань із сервера
-- ➕ Додавання нових завдань
-- ❌ Видалення завдань
-- 🔄 Автоматичне оновлення списку після змін
-- 🎨 Стилізований UI (CSS Modules)
-
----
-
-## 🛠️ Технології
-
-- **Next.js** – основа застосунку
-- **React Query** – керування API-запитами
-- **Axios** – для HTTP-запитів
-- **CSS Modules** – стилізація компонентів
+- 📋 Fetch and display a list of tasks
+- ➕ Add new tasks
+- ❌ Delete tasks
+- 🎨 Styled using **CSS Modules**
+- ⚡ Uses **Axios** for API requests
 
 ---
 
+## 🛠️ Technologies
 
+- **React.js** – UI framework
+- **Axios** – HTTP client for API requests
+- **CSS Modules** – Modular styling
 
+## 🔗 API Endpoints
+The app interacts with the JSONPlaceholder API:
 
+- **GET /todos?_limit={limit}** – Fetch tasks
+
+- **POST /todos** – Add a new task
+
+- **DELETE /todos/{id}** – Delete a task
